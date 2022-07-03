@@ -1,0 +1,32 @@
+{
+	"name": "steveton",
+	"description": "A personal card for Steve Ton",
+	"version": "1.0.0",
+	"main": "card.js",
+	"dependencies": {
+		"boxen": "^4.2.0",
+		"chalk": "^4.1.0",
+		"clear": "^0.1.0",
+		"cli-spinners": "^2.5.0",
+		"inquirer": "^7.3.2",
+		"open": "^7.0.4",
+		"ora": "^5.1.0",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.18"
+	},
+	"scripts": {
+		"test": "node card.js",
+		"pub": "npm version major & npm publish"
+	},
+	"keywords": [
+		"card",
+		"npm",
+		"npm card",
+		"npx",
+		"npx card",
+		"business card"
+	],
+	"author": "Steve Ton <bton1@student.gsu.edu> (https://github.com/thienbao12a2)"
+}
