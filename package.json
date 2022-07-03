@@ -3,6 +3,7 @@
 	"description": "A personal card for Steve Ton",
 	"version": "2.0.0",
 	"main": "card.js",
+	"bin": "card.js",
 	"dependencies": {
 		"boxen": "^4.2.0",
 		"chalk": "^4.1.0",
@@ -31,7 +32,7 @@
 	"homepage": "https://github.com/thienbao12a2/my-npx-card",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/thienbao12a2/my-npx-card.git"
+		"url": "https://github.com/thienbao12a2/my-npx-card.git"
 	},
 	"author": "Steve Ton <bton1@student.gsu.edu> (https://github.com/thienbao12a2)"
 }
