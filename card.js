@@ -88,7 +88,7 @@ const data = {
 	npx: chalk.red("npx") + " " + chalk.white("baoton"),
 
 	labelWork: chalk.white.bold("       Work:"),
-	labelFacebook: chalk.white.bold("    Facebook:"),
+	labelFacebook: chalk.white.bold("   Facebook:"),
 	labelGitHub: chalk.white.bold("     GitHub:"),
 	labelLinkedIn: chalk.white.bold("   LinkedIn:"),
 	labelWeb: chalk.white.bold("        Web:"),
@@ -115,7 +115,7 @@ const me = boxen(
 	].join("\n"),
 	{
 		margin: 1,
-		float: "center",
+		float: "left",
 		padding: 1,
 		borderStyle: "single",
 		borderColor: "green",
